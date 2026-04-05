@@ -1,0 +1,110 @@
+
+.red {font-size: 11px; font-family: Arial, Verdana; color: red;}
+
+A:link{
+	text-decoration: none; 
+	color: navy; 
+	font-family:  Verdana,Arial,Geneva;
+	}
+A.P:link{
+	font-size:11px;
+	text-decoration: underline;
+	color: navy;
+	font-family:  Verdana,Arial,Geneva;
+	font-weight : bolder;
+	}
+H4 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #996633;
+	font-weight: 700; 
+	font-size: 14px;
+	}
+H3 {
+	color: #6699cc;
+	font: 700;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	}
+.submit {
+	color: #003366;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #99ccff;
+	}
+.submit1 {
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #60a0ff;
+	}
+.input{
+	color: #003366; 
+	font-family:  Verdana, Arial, Serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+	background-color: #f0f8ff;
+	}
+body {
+	margin:0px;
+	margin-left:0px;
+	margin-top:0px;
+	}
+td {
+	font-family: Verdana,Arial,Geneva;
+	font-size:12px;
+	/*color:navy;*/
+	}
+border {
+	border-color:navy;
+	}
+img {
+	border:0;
+	}
+
+.hTitle{
+	color: #006633;
+	font-size: 30px;
+	white-space: nowrap;
+	padding: 5px 0px 5px 0px;
+	font-stretch: wider;
+	}
+.aca:first-letter{
+	font-size: 20px;
+	float: left;
+	}
+.aca{
+	color: #006633;
+	}
+.std_header{
+	color: #FFFFFF;
+	background-color: #336600;
+	}
+	
+.book {
+	background-color:#CCFF99;
+	}
+.conference {
+	background-color:#FFFFFC;
+	}
+.pcmember{
+	background-color:lightgreen;
+	}
+.accepted{
+	background-color:lightblue;
+	}
+.journal {
+	background-color:#66FF33;
+	}
+.nounderline A {
+	text-decoration:none;
+	color: white}
+.other {
+	background-color:#FFFFFC;
+	}
+.upcoming {
+	background-color:#FF3366;
+	}
+.workshop {
+	background-color:#00CCFF;
+	}
