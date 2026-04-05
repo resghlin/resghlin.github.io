@@ -1,0 +1,131 @@
+<?php session_start(); ?>
+<html>
+<head>
+<title>Guohui's Homepage</title>
+</head>
+<link href="ghlin.css" rel="stylesheet" type="text/css">
+<body>
+<?php 
+	$curPage = "Home";
+	$curLink = "index.php";
+	$HomeDis = "<tr><td class=hTitle>Guohui Lin<br>";
+	include    "header0.php";
+?>
+
+<table align=center cellpadding="0" cellspacing="8" width="980" style="border-style:solid; border-color:#CCCCCC; border-width:1px; text-align:justify;">
+	<tr>
+	<td>&nbsp;</td>
+	<td>
+<DL><DT>
+	<table align=center cellpadding="0" cellspacing="0" width=100% border=0 style="text-align:justify">
+	<tr valign=bottom>
+	<td><img alt="June 23, 2020, Edmonton" src="IMAG/ghlin_20200623.jpg" width=100>
+	<td width=2>&nbsp;&nbsp;
+	<td><div style="padding-left:0; padding-right:400">
+	<b>Professor</b> of <a href="http://www.cs.ualberta.ca/">Computing Science</a>
+	<p>
+	<b>Research Interests:</b> Bioinformatics, Algorithms.
+	</div>
+	</tr>
+	</table>
+
+	<p>
+	<b><font color=red size=3>Latest:</font></b>
+	<div style="padding-left:0; padding-right:30">
+	<UL>
+		<Li><a href="suggestions_for_writing_in_latex.html">Suggestions for collaborative writing in latex</a>.<p>
+		<Li>Office hours (Sep 1-Dec 8, 2025): No appointment needed during Tuesdays 11am-1:30pm.<p>
+		<Li><span style="background: lightgrey">Graduate applicants: I do not admit doctoral students unless <u>I know you or recommended by my colleagues</u></span>.
+		<Li><span style="background: lightgrey">MSc applicants: Check out some of my publications before contacting me</span>.
+		<Li>We don't have an office phone any more.<p>
+		<Li><b><a href="https://weather.gc.ca/city/pages/ab-50_metric_e.html">Current Weather</a></b>
+		<!--Li>Faculty badminton club (<b><a href="https://sites.google.com/ualberta.ca/uafbclub/">website</a></b>)
+		<Li><b><span style="background: lime">One PDF position in imputation</span> open</b>
+			(algorithm design + machine learning + Java/C programming).<br>
+			Send me your resume and one representative <b>related</b> publication for consideration.>
+		<Li>COCOA 2012 special issues: <b><u><a href="http://link.springer.com/journal/10878/27/1/page/1">JOCO, Volume 27, Issue 1 (January, 2014)</a></u></b>
+			and <b><u><a href="http://www.sciencedirect.com/science/journal/03043975">TCS, Volume 507 (October 7, 2013)</a></u></b>.
+		<Li>I am the <b>President</b> of <b><a href="http://www.ua-fbclub.org">UofA Faculty Badminton Club</a> (2013 &#151;)</b>.
+			All faculty/staff members of UofA and ARC are welcome.-->
+	</UL>
+	<p>
+	<b><font color=darkgreen size=3>Research</font></b>
+	<div style="padding-left:0; padding-right:30">
+	<UL><Li><b>Current Projects:</b>
+		<UL><Li><b>Algorithmic game theory</b>
+			<Li><b>Algorithm design and analysis</b>, and bioinformatics web-service development
+			<Li><b>Proteomics</b> and <b>Metabolomics</b> (<i>E.coli</i>, zebrafish, human, canola, clubroot: identification, quantification, association studies)
+			<!--Li><b>Genomics</b> (<a href="http://www.canadacow.ca">bovine genomics</a>: imputation, radiation hybrid maps, GWAS, haplotyping, linkage)-->
+			<!--Li><b>whole genome based phylogenetic analysis</b> (microbial, and various viruses such as AIV, HIV-1, and FMDV)-->
+			<!--Li><b>influenza evolution</b> (genetic, antigenic, reassortment)-->
+			<!--Li><b>cancer <u>bioinformatics</u></b> (biomarkers)-->
+		</UL>
+		<Li><b><a href="http://www.cs.ualberta.ca/~guohui/lingroup/">Research Team</a></b> and our news
+		<Li><b><a href="src/PHP/publications.php">Publications</a></b><!-- (see also
+		 <A HREF="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/l/Lin:Guohui.html">DBLP</A>,
+		 <A href="http://www.ams.org/msnmain?fn=130&fmt=hl&pg1=IID&s1=618882&v1=Lin%2C%20Guo%2DHui">MathSciNet</A>,
+		 <A href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Search&db=pubmed&term=Lin,+Guohui">PubMed</A>)-->
+	</UL>
+	</div>
+
+	<p>
+	<b><font color=darkgreen size=3>Current Teaching</font></b>
+	<div style="padding-left:0; padding-right:30">
+	<UL>
+		<Li><b>CMPUT 201 (Fall 2025)</b> - Practical Programming Methodology 
+			(<a href="https://canvas.ualberta.ca/courses/27287"><b>Canvas</b></a> <b>|</b>
+			 <a href="cmput201.php"><b>public</b></a>)
+			 <!--Fall 2025: -->
+			 <!--Fall 2024: 5|9+7|9 / 123|141 students won A/A+'s (8|10%); 26|36+20|17 withdraw or F (31|30%).-->
+			 <!--Fall 2023: 19|20+7|20 / 184|191 students won A/A+'s (12|19%); 29|24+14|17 withdraw or F (20|19%).-->
+		<Li><b>CMPUT 606 (Winter 2025)</b> - Optimization in Bioinformatics
+			(<a href="https://canvas.ualberta.ca//courses/18442"><b>eClass</b></a> <b>|</b>
+			 <a href="cmput606.php"><b>public</b></a>)
+		<Li><b>CMPUT 304 (Fall 2015)</b> - Algorithms II
+			(<a href="https://eclass.srv.ualberta.ca/course/view.php?id=25892"><b>eClass</b></a> <b>|</b>
+			 <a href="cmput304.php"><b>public</b></a>)
+		<Li><b>CMPUT 272 (Winter 2014)</b> - Formal Systems and Logic
+			(<a href="https://eclass.srv.ualberta.ca/course/view.php?id=15470"><b>eClass</b></a> <b>|</b>
+			 <a href="cmput272.php"><b>public</b></a>)
+		<Li><b>CMPUT 204 (Fall 2008)</b> - Algorithms I
+			(<a href="cmput204.php"><b>public</b></a>)
+		<Li><b><a href="https://docsdb.cs.ualberta.ca/">Docsdb</a></b>
+	</UL>
+	</div>
+
+	<p>
+	<b><font color=darkgreen size=3>Other</font></b>
+	<div style="padding-left:0; padding-right:30">
+	<UL><Li>Associate Editor:
+			<b><a href="http://www.springerlink.com/content/102924/">Journal of Combinatorial Optimization</a></b>
+		<Li>Program committee member:<UL>
+			<Li><b><a href="http://www.cocoa2025.com/cocoa/">COCOA 2025</a></b> (Tianjin, November 28-30)
+			<Li><b><a href="https://tcsuestc.com/cocoon2025/">COCOON 2025</a></b> (Chengdu, August 15-17)
+			<Li><b><a href="https://www.cs.montana.edu/bhz/iwoca2025/">IWOCA 2025</a></b> (Bozeman, July 21-24)
+			<Li><b><a href="http://www.cocoa2024.com/">COCOA 2024</a></b> (Beijing, December 6-8)
+			<Li><b><a href="https://anl.sjtu.edu.cn/cocoon2024/">COCOON 2024</a></b> (Shanghai, August 23-25)
+			</UL>
+		<Li>Program (co-)Chair:
+			<font color=lightgrey>
+			<b>ISCO 2018</b> (Shanghai, July 14-15);
+			<b>| COCOA 2012</b> (Banff, August 5-9);
+			<b>| COCOON 2007</b> (Banff, July 16-19)</font>
+		<!--Li><font color=lightgrey><b>Organizing committee member</b>:
+			CanaDAM 2007 (Banff, Alberta, May 28-31), ISMB 2002 (Edmonton, Alberta, August 3-7)</font-->
+	</UL>
+	</div>
+</DL></td>
+</tr>
+</table>
+
+<?php 
+	include "foot0.php";
+?>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-4491432-1";
+urchinTracker();
+</script>
+</body>
+</html>
