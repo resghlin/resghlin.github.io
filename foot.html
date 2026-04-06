@@ -6,6 +6,11 @@
 <TR>
 	<TD align=center>
 <font face="verdana, helvetica" size=1>
+	<p id="last-mod"></p>
+	<script>
+  		document.getElementById("last-mod").innerHTML = "Last modified: " + document.lastModified;
+	</script>
+	
 <?php
 	if (!empty($counterImg))
 	{
@@ -41,8 +46,6 @@
 	//echo "<br>You are the No.".$count." visitor";
 ?>
 </TABLE>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
 <script type="text/javascript">
 _uacct = "UA-4491432-1";
 urchinTracker();
