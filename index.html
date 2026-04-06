@@ -127,5 +127,14 @@
     });
 </script>
 	
+<div id="foot"></div>
+<script>
+  fetch('foot.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('foot').innerHTML = data;
+    });
+</script>
+
 </body>
 </html>
