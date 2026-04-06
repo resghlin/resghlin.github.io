@@ -6,7 +6,18 @@
 
 <body>
 <iframe src="header0.html" style="border:none;"></iframe>
+
+<div id="header0"></div>
+<script>
+  fetch('header0.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header0').innerHTML = data;
+    });
+</script>
+	
 {% include header0.html %}
+
 <TABLE align=center cellSpacing=5 cellPadding=0 width="980" border=0 bgColor=darkgreen>
 <TR>
     <TD width="63%" valign="middle">&nbsp;
