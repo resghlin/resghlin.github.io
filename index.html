@@ -124,15 +124,6 @@
 </tr>
 </table>
 
-<div id="foot0"></div>
-<script>
-  fetch('foot0.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('foot0').innerHTML = data;
-    });
-</script>
-	
 <div id="foot"></div>
 <script>
   fetch('foot.html')
@@ -142,5 +133,14 @@
     });
 </script>
 
+<div id="foot0"></div>
+<script>
+  fetch('foot0.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('foot0').innerHTML = data;
+    });
+</script>
+	
 </body>
 </html>
